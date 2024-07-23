@@ -108,4 +108,38 @@
         }
     }
 }
-
+#EXample Uniform
+{
+    "BMLD": {
+        "1": {
+            "ITEMS": [
+                {
+                    "ID": 1,
+                    "LCNAME": "DL",
+                    "GROUP_NAME": "GN1",
+                    "CMD": "BEAM",
+                    "TYPE": "UNILOAD",
+                    "DIRECTION": "GZ",
+                    "USE_PROJECTION": false,
+                    "USE_ECCEN": false,
+                    "D": [
+                        0,
+                        1,
+                        0,
+                        0
+                    ],
+                    "P": [
+                        -20,
+                        -20,
+                        0,
+                        0
+                    ],
+                    "USE_ADDITIONAL": false,
+                    "ADDITIONAL_I_END": 0,
+                    "ADDITIONAL_J_END": 0,
+                    "USE_ADDITIONAL_J_END": false
+                }
+            ]
+        }
+    }
+}
